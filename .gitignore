@@ -1,4 +1,9 @@
 *.cache
 *.props
 *.targets
+*.CopyComplete
+MyService.Test/bin/
+MyService.Test/obj/
+MyService/bin/
+MyService/obj/
 
