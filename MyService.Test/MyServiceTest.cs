@@ -36,8 +36,7 @@ namespace MyService.Test
         [InlineData(3)]
         [InlineData(5)]
         [InlineData(7)]
-        [InlineData(9)]
-        [InlineData(10)]
+        [InlineData(9)]        
         public void OddNumberCases(int value)
         {
             Assert.True(_myService.IsOdd(value));
