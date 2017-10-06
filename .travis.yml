@@ -6,5 +6,4 @@ dotnet: 2.0.0
 
 script:
   - dotnet build ./MyService
-  - donnet build ./MyService.Test
   - dotnet test ./MyService.Test
